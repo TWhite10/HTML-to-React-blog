@@ -11,34 +11,30 @@
       <h1>Site Title</h1>
       <h2>Subtitle</h2>
 
-      <nav aria-label="Main Navigation" role="navigation">
+      <nav class="nav-bar" aria-label="Main Navigation" role="navigation" >
         <ul>
           <li><a href="...">Home</a></li>
           <li><a href="...">Shop</a></li>
-          <li class="has-submenu">
-            <a aria-expanded="false" aria-haspopup="true" href="..."
-              >SpaceBears</a
-            >
-            <ul>
-              <li><a href="...">SpaceBear 6</a></li>
-              <li><a href="...">SpaceBear 6 Plus</a></li>
-            </ul>
-          </li>
+          <li><a href="...">MarsCars</a></li>
           <li><a href="...">MarsCars</a></li>
           <li><a href="...">Contact</a></li>
+          <li><a href="...">MarsCars</a></li>
         </ul>
       </nav>
     </header>
+    
     <main>
       <article>
-        <h2>Superbear saves the day</h2>
         <time datetime="2015-08-07">7 Aug 2015</time>
+        <h2 class="blog-title">Superbear saves the day</h2>
+        <img src="./public/blog-image-1.jpg" alt="woman walking down the steet">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Odio explicabo doloribus possimus, consequuntur ducimus 
           reiciendis quia assumenda libero! Vero optio similique 
           eveniet dolorem ad. Harum distinctio unde placeat aut blanditiis!
         </p>
+        <span> <a href="#">Continues...</a></span>
         <aside>
           <h3>Related Articles</h3>
           <ul>
@@ -47,15 +43,18 @@
           </ul>
         </aside>
       </article>
+     
       <article>
-        <h2>Superbear saves the day</h2>
-        <time datetime="2015-08-07">7 Aug 2015</time>
+         <time datetime="2015-08-07">7 Aug 2015</time>
+        <h2 class="blog-title">Superbear saves the day</h2>
+       <img src="./public/blog-image-2.jpg" alt="fashion show audience">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Odio explicabo doloribus possimus, consequuntur ducimus 
           reiciendis quia assumenda libero! Vero optio similique 
           eveniet dolorem ad. Harum distinctio unde placeat aut blanditiis!
         </p>
+        <span> <a href="#">Continues...</a></span>
         <aside>
           <h3>Related Articles</h3>
           <ul>
@@ -65,9 +64,21 @@
         </aside>
       </article>
     </main>
-    <footer>
 
-        <p>copyright 2024 &copy;</p>
+    <footer>
+        <nav class="nav-bar" aria-label="Main Navigation" role="navigation">
+            <ul>
+              <li><a href="...">Home</a></li>
+              <li><a href="...">Shop</a></li>
+              <li><a href="...">MarsCars</a></li>
+              <li><a href="...">MarsCars</a></li> 
+              <li><a href="...">MarsCars</a></li>
+              <li><a href="...">Contact</a></li>
+              <li><a href="...">MarsCars</a></li>
+              <li><a href="...">MarsCars</a></li>
+            </ul>
+            <p class="copyright">copyright 2024 &copy;</p>  
+          </nav>
     </footer>
   </body>
 </html>
