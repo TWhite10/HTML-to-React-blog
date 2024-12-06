@@ -4,17 +4,17 @@ function Nav() {
     return (
         <div>
             <header>
-                <h1>Site Title</h1>
-                <h2>Subtitle</h2>
+                <h1> Style Street </h1>
+                <h2>Fashion Daily</h2>
 
                 <nav className="nav-bar" aria-label="Main Navigation" role="navigation" >
                     <ul>
                         <li><a href="...">Home</a></li>
-                        <li><a href="...">Shop</a></li>
-                        <li><a href="...">MarsCars</a></li>
-                        <li><a href="...">MarsCars</a></li>
-                        <li><a href="...">Contact</a></li>
-                        <li><a href="...">MarsCars</a></li>
+                        <li><a href="...">Women's</a></li>
+                        <li><a href="...">Men's</a></li>
+                        <li><a href="...">On the Street</a></li>
+                        <li><a href="...">The Catwalk</a></li>
+                        <li><a href="...">About</a></li>
                     </ul>
                 </nav>
             </header>

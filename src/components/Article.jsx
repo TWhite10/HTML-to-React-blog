@@ -5,8 +5,8 @@ function Footer() {
         <div>
             <main>
                 <article>
-                    <time dateTime="2015-08-07">7 Aug 2015</time>
-                    <h2 className="blog-title">Superbear saves the day</h2>
+                    <time dateTime="2024-08-07">7 Aug 2024</time>
+                    <h2 className="blog-title">Fashion Today</h2>
                     <img src="./public/imgs/blog-image-1.jpg" alt="woman walking down the steet" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -18,15 +18,15 @@ function Footer() {
                         <aside>
                             <h3>Related Articles</h3>
                             <ul>
-                                <li><a href="#">Bear receives key to city</a></li>
-                                <li><a href="#">Superbear stands for mayor</a></li>
+                                <li><a href="#">City Staples</a></li>
+                                <li><a href="#"> Back to Basics</a></li>
                             </ul>
                         </aside>
                 </article>
 
                 <article>
-                    <time dateTime="2015-08-07">7 Aug 2015</time>
-                    <h2 className="blog-title">Superbear saves the day</h2>
+                    <time dateTime="2024-08-07">7 Aug 2024</time>
+                    <h2 className="blog-title">Trendy Comebacks</h2>
                     <img src="./public/imgs/blog-image-2.jpg" alt="fashion show audience"/>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -38,8 +38,8 @@ function Footer() {
                         <aside>
                             <h3>Related Articles</h3>
                             <ul>
-                                <li><a href="#">Bear receives key to city</a></li>
-                                <li><a href="#">Superbear stands for mayor</a></li>
+                                <li><a href="#">Chic Outlook</a></li>
+                                <li><a href="#">Pilates Princess </a></li>
                             </ul>
                         </aside>
                 </article>
